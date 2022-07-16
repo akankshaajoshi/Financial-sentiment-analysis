@@ -8,7 +8,7 @@ Prediction model for sentiment analysis uses different classification approaches
 
 1.Data wrangling: Non-meaningful slangs were replaced with their full forms. Data with duplicated indices were dropped to avoid any complications.
 
-2. Data preprocessing: Data in textual format was converted into vectorised bag-of-words approach to convert each sentiment review into its equivalent feature matrix for classifier. Lemmatization and stemming was carried out to simplify similar terms. Term frequency-inverse document frequency was  used to emphasize more on words within the given minimum and maximum document frequency.
+2.Data preprocessing: Data in textual format was converted into vectorised bag-of-words approach to convert each sentiment review into its equivalent feature matrix for classifier. Lemmatization and stemming was carried out to simplify similar terms. Term frequency-inverse document frequency was  used to emphasize more on words within the given minimum and maximum document frequency.
 
 2.EDA (Exploratory data analysis): Infographics were created using pandas_profiler which provides a quick summary of data and shows the features with high correlation, value counts, distinct values, frequency distributions and so on.
 
@@ -16,6 +16,6 @@ Prediction model for sentiment analysis uses different classification approaches
 
 4.Cross validation: Cross validation is done on the final chosen model values.
 
-An overall precision Metric for the test data came out to be 82.3%.
+An overall precision Metric for the test data came out to be 83.2%.
 
 Conclusion: It can be seen that both XGBoost and Support Vector Classifier of linear kind prove equally useful in classifying the sentiments as positive, negative and neutral. Support vector classifier with hyperparameter tuning helps us achieve a precision of 83.2%.
